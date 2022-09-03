@@ -1,0 +1,168 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header {
+    /*background: linear-gradient(#4D68A1,#3B5998);*/
+    background: #385899; /*Background r background-color er different ki?*/
+    overflow:hidden; /*Aitar kaj ki muloto*/
+    padding-top:10px;
+    padding-bottom:4px;
+    border-bottom:1px solid #133783;
+}
+.mid{
+    width:80%;
+    margin:auto;
+}
+.logo{
+    width:60%;
+    float:left;
+}
+.logo img{
+    height:72px;
+    width:180px;
+    margin-top:4px;
+    cursor:pointer;
+}
+.login{
+    width:40%;
+    float:left;
+}
+.login1 input, .login2 input{
+    display:block;
+    border:1px solid #1d2a5b;
+    padding:3px;
+    margin-top:4px;
+}
+.login1 ,.login2 , .login3{
+    float:left;
+    margin-right:10px;
+}
+.login1 label , .login2 label{
+    color:white;
+    font-family:Tahoma;
+    font-size:12px;
+}
+.login2 a {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: Tahoma;
+        text-decoration: none;
+    }
+.login2 a:hover{
+    text-decoration:underline;
+}
+.login3 button{
+    background-color:#4267b2;
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+    color:#FFF;
+    border:1px solid #29487D;
+    cursor:pointer;
+    padding:5px 2px;
+    margin-top:23px;
+}
+.login3 button:hover{
+        background-color:#365899;
+    }
+.fb-body{
+    background:linear-gradient(white,#D4D9E8);
+    overflow:hidden;
+    padding-bottom:20px;
+}
+.fb-left{
+    width:60%;
+    float:left;
+}
+fb-right{
+    width:40%;
+    float:left;
+}
+.fb-left h2{
+    font-family:Tahoma;
+    color:#0e385f;
+    font-size:20px;
+    width:80%;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.fb-right h1{
+    font-size:36px;
+    color:#333;
+    font-family:Tahoma;
+    margin-top:27px;
+}
+.fb-right p{
+    color:#1d2129;
+    font-size:19px;
+    font-family:Tahoma;
+}
+.reg-box {
+    margin-top:15px;
+    overflow:hidden; /*prob solved but didn't understatnd*/
+}
+    .reg-box input {
+        width: 100%;
+        border: 1px solid #bdc7d8;
+        padding: 8px 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        /*prob in 13:14*/
+    }
+.reg-box input:nth-child(1){
+    width:49%;
+    float:left;
+}
+.reg-box input:nth-child(2) {
+            width: 49%;
+            float:right;
+}
+.birthday{
+    overflow:hidden;
+}
+.birthday h3{
+    font-family:Tahoma;
+    font-size:18px;
+    color:#1d2129;
+    font-weight:normal;
+}
+.birthday select{
+    font-size:13px;
+    padding:5px;
+    border:1px solid #bdc7d8;
+    float:left;
+}
+.birthday a{
+    font-size:11px;
+    width:150px;
+    display:block;
+    text-decoration:none;
+    color:#365899;
+    font-family:Tahoma;
+    margin-left:10px;
+    float:left;
+}
+.birthday a:hover{
+    text-decoration:underline;
+    }
+.button input {
+    margin: 15px 0px;
+    background: linear-gradient(#67ae55, #578843);
+    font-size: 19px;
+    color: #FFF;
+    font-family: tahoma;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-radius: 5px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.button input:hover {
+    background: linear-gradient(#79bc64, #578843);
+    }
